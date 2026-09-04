@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
 
-/* ============================================
-   DESIGN TOKENS
-   Concepto: "esquema de sistema" — el portafolio de un
-   ingeniero de sistemas / full stack se presenta como un
-   diagrama técnico: nodos conectados, líneas finas tipo
-   plano, tipografía de datos para stacks y fechas.
-   ============================================ */
 :root {
   /* color */
   --bg: #10141a;
@@ -19,12 +12,10 @@
   --accent-dim: #3a8f81;
   --accent-soft: rgba(95, 217, 196, 0.12);
 
-  /* type */
   --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
   --font-body: "Inter", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
 
-  /* layout */
   --max-width: 920px;
   --gutter: 24px;
   --radius: 3px;
