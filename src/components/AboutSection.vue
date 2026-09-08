@@ -12,7 +12,7 @@ const facts = [
     <div class="container about">
       <h2 class="section-heading">Sobre mim</h2>
       <p class="about__text">
-        Comecei como estagiário bolsista na Universidade Tecnológica Boliviana (UTB), onde fui efetivado como
+        Comecei como estagiário bolsista na minha universidade, onde fui efetivado como
         desenvolvedor ainda durante a graduação, com estágio paralelo na
         Sub-prefeitura Municipal de La Paz. No ano seguinte fui convidado a
         integrar uma instituição da prefeitura, e em cerca de um ano fui

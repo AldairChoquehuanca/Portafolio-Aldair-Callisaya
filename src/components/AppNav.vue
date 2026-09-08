@@ -34,6 +34,7 @@ const links = [
   align-items: center;
   justify-content: space-between;
   height: 64px;
+  gap: 16px;
 }
 
 .nav__brand {
@@ -42,11 +43,20 @@ const links = [
   font-weight: 600;
   text-decoration: none;
   color: var(--text);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .nav__links {
   display: flex;
   gap: 28px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.nav__links::-webkit-scrollbar {
+  display: none;
 }
 
 .nav__links a {
@@ -54,6 +64,7 @@ const links = [
   text-decoration: none;
   color: var(--text-muted);
   transition: color 0.15s ease;
+  white-space: nowrap;
 }
 
 .nav__links a:hover {
@@ -61,11 +72,24 @@ const links = [
 }
 
 @media (max-width: 640px) {
-  .nav__links {
-    gap: 16px;
+  .nav__inner {
+    height: 56px;
+    justify-content: center;
   }
+
+  .nav__brand {
+    display: none;
+  }
+
+  .nav__links {
+    gap: 18px;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0 4px;
+  }
+
   .nav__links a {
-    font-size: 12.5px;
+    font-size: 13px;
   }
 }
 </style>
